@@ -13,22 +13,28 @@
   </head>
   <body>
     <style>
+      body,
+      html {
+        height: 100%;
+      }
       body {
-        background-image: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?dpr=0.800000011920929&auto=format&fit=crop&w=1199&h=800&q=80&cs=tinysrgb&crop=");
+        background-image: url("https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        height: 100%;
+        background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
-        color: aliceblue;
+        color: rgb(255, 255, 255);
       }
       .card {
         background-color: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(4px);
         border-radius: 20px;
         padding: 2rem 0;
+        margin: 10rem 0;
       }
     </style>
-    <div class="container" style="margin: 5em">
+    <div class="container">
       <div class="row">
-        <div class="col col-md-6 mx-auto">
+        <div class="col col-md-6 col-sm-12 mx-auto">
           <div id="container">
             <div class="card shadow" style="width: 100%">
               <div class="card-body">
